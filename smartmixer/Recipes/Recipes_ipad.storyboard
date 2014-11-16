@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7KD-lV-64R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7KD-lV-64R">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -1568,7 +1568,7 @@
                                     <constraint firstAttribute="width" constant="180" id="bVn-DE-KyA"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="开始制作&gt;">
+                                <state key="normal" title="开始制作>">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -2348,15 +2348,15 @@
                                 <exclude reference="8zi-Ef-WmC"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="EQr-ZH-Jew"/>
+                                <exclude reference="nv4-dN-Nfs"/>
+                                <exclude reference="RSc-wH-ILQ"/>
+                                <exclude reference="jhg-pC-sbj"/>
+                                <exclude reference="k2L-4E-5NA"/>
                                 <exclude reference="DGc-eA-sRe"/>
                                 <exclude reference="YBd-hK-41r"/>
                                 <exclude reference="Z4U-1y-StE"/>
                                 <exclude reference="rZU-xB-I21"/>
-                                <exclude reference="RSc-wH-ILQ"/>
-                                <exclude reference="jhg-pC-sbj"/>
-                                <exclude reference="k2L-4E-5NA"/>
-                                <exclude reference="EQr-ZH-Jew"/>
-                                <exclude reference="nv4-dN-Nfs"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -2366,15 +2366,15 @@
                                 <include reference="8zi-Ef-WmC"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="EQr-ZH-Jew"/>
+                                <include reference="nv4-dN-Nfs"/>
+                                <include reference="RSc-wH-ILQ"/>
+                                <include reference="jhg-pC-sbj"/>
+                                <include reference="k2L-4E-5NA"/>
                                 <include reference="DGc-eA-sRe"/>
                                 <include reference="YBd-hK-41r"/>
                                 <include reference="Z4U-1y-StE"/>
                                 <include reference="rZU-xB-I21"/>
-                                <include reference="RSc-wH-ILQ"/>
-                                <include reference="jhg-pC-sbj"/>
-                                <include reference="k2L-4E-5NA"/>
-                                <include reference="EQr-ZH-Jew"/>
-                                <include reference="nv4-dN-Nfs"/>
                             </mask>
                         </variation>
                     </view>
@@ -2427,7 +2427,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recipe2" translatesAutoresizingMaskIntoConstraints="NO" id="Gnj-Lr-oV7" userLabel="thumbnailImage">
@@ -3280,7 +3280,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="34"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jv0-zJ-RIh">
